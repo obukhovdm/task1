@@ -7,7 +7,7 @@ public class Main {
 
         Random rand=new Random();
         Animal[] animal= {
-                new Cat("Вася"),
+                new Cat("Ваcя"),
                 new Tiger("Петя"),
                 new Cat("Мурзик"),
                 new Dog("Барсик "),
