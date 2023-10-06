@@ -1,11 +1,10 @@
 package org.example;
 
-public class Dog extends Animal{
-    String color;
+public class Dog extends Animal {
 
-    public Dog(String name, String color){
+    public Dog(String name){
         this.name=name;
-        this.color=color;
+
     }
 
     public void run(int ln){
@@ -26,6 +25,6 @@ public class Dog extends Animal{
         }
     }
     public void dogInfo(){
-        System.out.println("Собака, имя: "+name+" цвет: "+color);
+        System.out.println("Собака, имя: "+name);
     }
 }
